@@ -1,4 +1,8 @@
 # Parking Location Tracking System
+![Parking_System](https://github.com/egecan12/Parking_location_Tracking_System/assets/45043515/6236daf5-c6f2-4967-a2b6-51f8bc460067)
+
+![Untitled](https://github.com/egecan12/Parking_location_Tracking_System/assets/45043515/51efcae3-b18f-4edc-9cc9-b5426cbdbc11)
+
 
 This project consists of two main parts: `Location_Tracker_API` and `LocationTrackingApp`.
 
