@@ -8,6 +8,11 @@ This is a project which aims to help you to find your parking spot. Once you par
 
 This project consists of two main parts: `Location_Tracker_API` and `LocationTrackingApp`.
 
+Requirements:
+Node.JS
+Expo
+MongoDB
+
 ## Location_Tracker_API
 
 This is the backend of the project, built with Node.js, Express, and MongoDB. It provides endpoints to get and add coordinates.
