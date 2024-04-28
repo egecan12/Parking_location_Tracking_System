@@ -19,7 +19,7 @@ app.get("/", (req, res) => res.send("Hello World!"));
 
 app.get("/getCoords", authenticate, async (req, res, next) => {
   try {
-    const coords = await Coordinates.find().limit(50);
+    const coords = await Coordinates.find().sort({ CreatedAt: -1 }).limit(1);
     res.json(coords);
   } catch (err) {
     console.error(err);
@@ -38,6 +38,9 @@ app.post("/addCoords", authenticate, async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || port, () =>
-  console.log(`Example app listening at http://localhost:${port}`)
-);
+const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || "127.0.0.1";
+
+app.listen(PORT, HOST, () => {
+  console.log(`Server is listening on ${HOST}:${PORT}`);
+});
