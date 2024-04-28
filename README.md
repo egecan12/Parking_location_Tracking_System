@@ -1,4 +1,6 @@
 # Parking Location Tracking System
+This is a project which aims to help you to find your parking spot. Once you park your car, open the mobile app, click the send coords button. Then by swiping the right tab, you will view your parking location on the Map.
+
 ![Parking_System](https://github.com/egecan12/Parking_location_Tracking_System/assets/45043515/6236daf5-c6f2-4967-a2b6-51f8bc460067)
 
 ![Untitled](https://github.com/egecan12/Parking_location_Tracking_System/assets/45043515/51efcae3-b18f-4edc-9cc9-b5426cbdbc11)
@@ -42,3 +44,5 @@ This is the frontend of the project, built with React Native and Expo. It has tw
 ## Note
 
 Make sure to start the backend server before starting the app.
+
+Developed by Egecan Kahyaoglu
